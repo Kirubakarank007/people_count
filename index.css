@@ -1,0 +1,85 @@
+body{
+    background-image: url(mallimage.jpg);
+    height: 100vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+}
+.wrap{
+    opacity: 60%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    margin: auto;
+    background-color: white;
+    border: 50px solid black;
+    border-radius: 20px;
+    max-width: 50%;
+}
+
+h1
+{
+    margin: 20px;
+    text-align: center;
+    color:black;
+    text-decoration: aqua;
+    text-shadow: 10px;
+    font-size: 150%;
+    padding: -100px;
+}
+h2
+{
+    margin:20px;
+    text-align: center;
+    font-size: 150px;
+    padding: -100px;
+    color:black;
+    opacity: 30%;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-content: center;
+    left: 50%;
+    color: rgb(250, 249, 249);
+    font-size: 100%;
+    border: 3px solid black;
+    border-radius: 3px;
+    opacity: 200%;
+    /* margin-left: 25%;
+    margin-right: 25% */
+}
+.btn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+
+}
+.tobtn
+{
+    background-color: brown;
+}
+.inbtn
+{
+    background-color:blue;
+}
+.debtn
+{
+    background-color: red;
+}
+.head{
+    align-content: center;
+    color: aqua;
+    background-image: url();
+}
+.sabtn{
+    background-color:green;
+}
+p{
+    font-weight: bolder;
+    font-size: 150%;
+}
